@@ -1,0 +1,19 @@
+{
+  "options": {
+    "semicolons": false,
+    "string_interpolation": true,
+    "comments_for_upvalues": true,
+    "original_line_info": true,
+    "function_id": true,
+    "preserve_numeric_loop_steps": true,
+    "use_if_expressions": true,
+    "indent_size": 2,
+    "include_header": true,
+    "include_disassembly_comments": false,
+    "safe_mode": true
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 5000
+  }
+}
