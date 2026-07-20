@@ -1,6 +1,5 @@
 
-> **Done by vortexdq**
-> Version 2.0.0
+> **Made by vortexdq for educational purposes!**
 
 A local, safe tool for decompiling Roblox Luau bytecode to readable source code.
 Runs 100% on your machine. No telemetry, no remote servers, no shady network calls.
