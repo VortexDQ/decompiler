@@ -10,13 +10,13 @@ Runs 100% on your machine. No telemetry, no remote servers, no shady network cal
 
 - **Decompile** Luau bytecode to readable Luau source code
 - **Disassemble** bytecode for low-level inspection
-- **HTTP API** for programmatic use (localhost only — never exposed publicly)
+- **HTTP API** for programmatic use (localhost only  never exposed publicly)
 - **Multiple input formats**: raw `.luac`, base64, hex, Python byte-list
-- **`.rbmx` / `.rbm` support** — extract and decompile embedded bytecode from Roblox XML model files
-- **Batch processing** — decompile an entire folder at once
+- **`.rbmx` / `.rbm` support**  extract and decompile embedded bytecode from Roblox XML model files
+- **Batch processing**  decompile an entire folder at once
 - **Configurable formatting** via `config.json` or CLI flags
-- **Robust error handling** — specific exceptions, no bare `except:` clauses
-- **Safety-first** — refuses to bind to public interfaces, uses `ast.literal_eval` (not `eval`)
+- **Robust error handling**  specific exceptions, no bare `except:` clauses
+- **Safety-first**  refuses to bind to public interfaces, uses `ast.literal_eval` (not `eval`)
 - **Clean launchers** for Windows (`.bat`) and Unix (`.sh`)
 
 ---
@@ -248,13 +248,13 @@ CLI flags override `config.json` values.
 
 This tool was reviewed and hardened:
 
-- **No malware** — no file deletion, no credential stealing, no process injection
-- **Localhost only** — the HTTP server refuses to bind to `0.0.0.0` or `::`
-- **No `eval`/`exec`** of arbitrary input — uses `ast.literal_eval` (literals only)
-- **No telemetry** — zero outbound network calls (except your own localhost server)
-- **Bounds-checked** bytecode reader — rejects implausible sizes
-- **Specific exceptions** — no bare `except:` clauses that swallow errors
-- **Safe XML parsing** — uses Python's standard `xml.etree` (no external entities)
+- **No malware**  no file deletion, no credential stealing, no process injection
+- **Localhost only**  the HTTP server refuses to bind to `0.0.0.0` or `::`
+- **No `eval`/`exec`** of arbitrary input  uses `ast.literal_eval` (literals only)
+- **No telemetry**  zero outbound network calls (except your own localhost server)
+- **Bounds-checked** bytecode reader  rejects implausible sizes
+- **Specific exceptions**  no bare `except:` clauses that swallow errors
+- **Safe XML parsing**  uses Python's standard `xml.etree` (no external entities)
 
 ---
 
