@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<roblox version="4">
+  <Item class="ModuleScript" name="SampleModule">
+    <Properties>
+      <string name="Name">SampleModule</string>
+      <BinaryString name="Bytecode">THVhVQAAAAAAAAAAAAAAAAAAAAAAAAEAAAAKAAAAAAEIBAAAAAUAAAAFAQEAGAIAATACAgACAAAAAgAAAAAAAERAAgAAAAAAAABAAAAAAAAAAAA=</BinaryString>
+    </Properties>
+  </Item>
+</roblox>
